@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e1e8346-9159-4c12-a86f-18ef38afd5d6">
+  <producedTypes>
+    <objectType typeId="e1494edc-709c-402b-b7f5-29e378b975e1" valueTypeId="72da90c0-38a7-44ad-8732-67356e982e31"/>
+    <refType typeId="a778b531-d234-48f1-a23b-c2ad64239d36" valueTypeId="eab30e8d-9aff-42e8-b976-a144153f32ae"/>
+    <selectionType typeId="dc4de4ba-6fb8-4653-91da-2e033d6a7920" valueTypeId="0edf4474-8b20-499e-a92d-d019a020e7c5"/>
+    <listType typeId="d95f66b5-8803-45d8-b535-fafa7a3b0380" valueTypeId="1d50cec8-c0bd-4a29-b5c8-49a74fdefe94"/>
+    <managerType typeId="e912d300-96e0-4ac8-9ba6-28a222e5eefd" valueTypeId="26d31135-0c7b-4cfe-83b0-898e0664bbe6"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
